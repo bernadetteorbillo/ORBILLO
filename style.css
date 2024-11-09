@@ -1,0 +1,96 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Section Styling */
+.section {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 1.4em;
+    color: #2980b9;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.list-item::before {
+    content: "•";
+    color: #2980b9;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+}
+
+/* Experience and Education Sections */
+section div h3 {
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+section div p {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+/* Summary Paragraph */
+.section p {
+    margin-top: 10px;
+    color: #555;
+}
